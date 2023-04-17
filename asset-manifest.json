@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/texto-app/static/css/main.34dff2f6.css",
+    "main.js": "/texto-app/static/js/main.944988bd.js",
+    "static/js/787.14ae5bd3.chunk.js": "/texto-app/static/js/787.14ae5bd3.chunk.js",
+    "index.html": "/texto-app/index.html",
+    "main.34dff2f6.css.map": "/texto-app/static/css/main.34dff2f6.css.map",
+    "main.944988bd.js.map": "/texto-app/static/js/main.944988bd.js.map",
+    "787.14ae5bd3.chunk.js.map": "/texto-app/static/js/787.14ae5bd3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34dff2f6.css",
+    "static/js/main.944988bd.js"
+  ]
+}
