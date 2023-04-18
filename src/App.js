@@ -43,6 +43,25 @@ function App(props) {
   
     }
   };
+   
+
+  // Add an event listener for when the window is resized
+window.addEventListener('resize', function() {
+  // Get the window width
+  var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  
+  // Check if the window width is less than or equal to 767px
+  if (windowWidth <= 768) {
+  
+     // Reset the text of the button when media query is not applied
+     document.getElementById('btn1').textContent = 'Upper Case';
+     document.getElementById('btn2').textContent = 'Lower Case';
+  }
+  else{
+    document.getElementById('btn1').textContent = 'Convert into UpperCase';
+    document.getElementById('btn2').textContent = 'Convert into LowerCase';
+  }
+}); 
 
   return (
     <>
