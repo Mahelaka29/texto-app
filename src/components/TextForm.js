@@ -48,7 +48,7 @@ function TextFrom(props) {
     setText(event.target.value);
   };
 
-  const [text, setText] = useState(" ");
+  const [text, setText] = useState("");
   return (
     <>
       <div className="container">
