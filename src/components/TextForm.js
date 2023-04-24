@@ -106,9 +106,9 @@ function TextFrom(props) {
         </div>
 
         <div className="container my-3">
-          <h2 className="summ">Summary of Your Text</h2>
-          <p>Number of words: {text.split("").length}</p>
-          <p>Number of charecters: {text.length}</p>
+          <h2 className="summ">Summery of Your Text</h2>
+          <p>Number of words: {text.split(" ").length}</p>
+          <p>Number of charecters: {text.length} </p>
           <h2 className="prev">Preview</h2>
           <p>
             {text.length > 0 ? text : "Enter something in the text box above to preview here!"}
